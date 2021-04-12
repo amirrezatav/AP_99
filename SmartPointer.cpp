@@ -6,7 +6,7 @@ class SmartPointer
 {
 	T* ptr;
 public:
-	SmartPointer(T* ptr = NULL)//0x00000000
+	SmartPointer(T* ptr = NULL)
 	{
 		this->ptr = ptr;
 	}
@@ -16,18 +16,16 @@ public:
 	}
 	T& operator*()
 	{
-		// a
 		return *ptr;//
 	}
 	T** operator&()
 	{
-		// 
 		T** ptrr = &ptr;
 		return &ptr;
 	}
 	T* Get()
 	{
-		// &a
+		
 		return ptr;
 	}
 };
