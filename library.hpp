@@ -1,10 +1,9 @@
+#ifndef Library_HPP
+#define Library_HPP
 #include <string>
 #include <windows.h>
 #include <vector>
 using namespace std;
-#ifndef Library_HPP
-#define Library_HPP
-
 
 enum Genre
 {
