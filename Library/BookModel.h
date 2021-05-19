@@ -1,7 +1,10 @@
+//-----------------------------------------------------
+// Design Name : Library Practice
+// File Name   : BookMode.h
+// Coder       : Amirreza Tavakoli
+//-----------------------------------------------------
 #include <string>
 using std::string;
-
-
 #ifndef BookModel_H
 #define BookModel_H
 enum Genre
