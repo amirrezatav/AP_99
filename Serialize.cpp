@@ -4,7 +4,7 @@ using namespace std;
 #ifndef PACKET_H
 #define PACKET_H
 #define BUFFER_SIZE 20 * 1024
-#define BUFFERFILE_SIZE BUFFER_SIZE - 2 * sizeof(int)
+#define BUFFERFILE_SIZE BUFFER_SIZE - 3 * sizeof(int)
 class Serializable
 {
     virtual size_t serialize_size() const = 0;
